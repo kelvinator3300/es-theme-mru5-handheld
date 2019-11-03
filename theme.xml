@@ -23,14 +23,6 @@ was the greatest teacher.
 			<color>ffffff</color>
 		</image>
 
-		<image name="background_help" extra="true">
-			<path>./_inc/images/color.png</path>
-			<origin>0 1</origin>
-			<pos>0 1</pos>
-			<size>1 0.03</size>
-			<color>000000</color>
-		</image>
-
 		<helpsystem name="help">
 			<textColor>000000</textColor>
 			<iconColor>000000</iconColor>
@@ -74,12 +66,20 @@ was the greatest teacher.
 				<size>1 0.03</size>
 			</text>
 
+			<image name="helpBG" extra="true">
+				<path>./_inc/images/color.png</path>
+				<origin>0.5 1</origin>
+				<pos>0.5 1</pos>
+				<size>1 0.05</size>
+				<color>00000088</color>
+			</image>
+
 			<image name="helpSystem" extra="true">
 				<path>./_inc/images/help-system.png</path>
 				<origin>0.5 1</origin>
 				<pos>0.5 1</pos>
-				<size>1 0.07</size>
-				<color>ff00ff88</color>
+				<size>1 0.05</size>
+				<color>ff00ffAA</color>
 			</image>
 
 			<image name="carouselbg" extra="true">
@@ -115,10 +115,10 @@ was the greatest teacher.
 		<text name="logoText">
 			<fontPath>./_inc/fonts/topic-bold.ttf</fontPath>
 			<color>ff00ff</color>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.06</pos>
-			<size>1 0.1</size>
-			<fontSize>0.1</fontSize>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>1 0.08</size>
+			<fontSize>0.08</fontSize>
 			<text>${system.fullName}</text>
 			<alignment>center</alignment>
 			<lineSpacing>1</lineSpacing>
@@ -138,12 +138,20 @@ was the greatest teacher.
 			<forceUppercase>true</forceUppercase>
 		</textlist>
 
+		<image name="helpBG" extra="true">
+			<path>./_inc/images/color.png</path>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>1 0.05</size>
+			<color>00000044</color>
+		</image>
+
 		<image name="helpGamelist" extra="true">
 			<path>./_inc/images/help-gamelist.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
-			<size>1 0.07</size>
-			<color>ff00ff88</color>
+			<size>1 0.05</size>
+			<color>ff00ffaa</color>
 		</image>
 
 	</view>
@@ -156,7 +164,7 @@ was the greatest teacher.
 			<origin>0.5 0</origin>
 			<pos>0.5 0</pos>
 			<size>1 0.08</size>
-			<fontSize>0.1</fontSize>
+			<fontSize>0.08</fontSize>
 			<text>${system.fullName}</text>
 			<alignment>center</alignment>
 			<lineSpacing>1</lineSpacing>
@@ -195,12 +203,20 @@ was the greatest teacher.
 			<imageColor>ffffffff</imageColor>
 		</gridtile>
 
+		<image name="helpBG" extra="true">
+			<path>./_inc/images/color.png</path>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>1 0.05</size>
+			<color>00000044</color>
+		</image>
+
 		<image name="helpGamelist" extra="true">
 			<path>./_inc/images/help-gamelist.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
-			<size>1 0.07</size>
-			<color>ff00ff88</color>
+			<size>1 0.05</size>
+			<color>ff00ffAA</color>
 		</image>
 
 	</view>
@@ -216,14 +232,14 @@ was the greatest teacher.
 		</image>
 
 		<text name="logoText">
-			<origin>0.5 1</origin>
-			<pos>0.5 0.08</pos>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
 			<color>FF00FF</color>
 			<forceUppercase>true</forceUppercase>
 			<text>${system.fullName}</text>
 			<fontPath>./_inc/fonts/topic-bold.ttf</fontPath>
-			<fontSize>0.1</fontSize>
-			<size>1 0.1</size>
+			<fontSize>0.08</fontSize>
+			<size>1 0.08</size>
 			<lineSpacing>1</lineSpacing>
 			<alignment>center</alignment>
 		</text>
@@ -250,12 +266,20 @@ was the greatest teacher.
 			<alignment>center</alignment>
 		</textlist>
 
+		<image name="helpBG" extra="true">
+			<path>./_inc/images/color.png</path>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>1 0.05</size>
+			<color>00000088</color>
+		</image>
+
 		<image name="helpGamelist" extra="true">
 			<path>./_inc/images/help-gamelist.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
-			<size>1 0.07</size>
-			<color>ff00ff88</color>
+			<size>1 0.05</size>
+			<color>ff00ffAA</color>
 		</image>
 
 			<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
@@ -396,6 +420,10 @@ was the greatest teacher.
 			</text>
 
 			<image name="helpGamelist" extra="true">
+				<zIndex>50</zIndex>
+			</image>
+
+			<image name="helpBG" extra="true">
 				<zIndex>50</zIndex>
 			</image>
 
