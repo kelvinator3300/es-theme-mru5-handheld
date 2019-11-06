@@ -249,7 +249,7 @@ was the greatest teacher.
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<size>1 1</size>
-			<color>00000066</color>
+			<color>00000077</color>
 		</image>
 
 		<textlist name="gamelist">
@@ -396,7 +396,7 @@ was the greatest teacher.
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<maxSize>1 1</maxSize>
-			<delay>3</delay>
+			<delay>5</delay>
 			<default>true</default>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
