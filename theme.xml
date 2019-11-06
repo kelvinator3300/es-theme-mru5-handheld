@@ -246,10 +246,10 @@ was the greatest teacher.
 
 		<image name="shade" extra="true">
 			<path>./_inc/images/color.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
 			<size>1 1</size>
-			<color>00000077</color>
+			<color>00000099</color>
 		</image>
 
 		<textlist name="gamelist">
@@ -279,7 +279,7 @@ was the greatest teacher.
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
 			<size>1 0.05</size>
-			<color>ff00ffAA</color>
+			<color>ff00ff</color>
 		</image>
 
 			<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
